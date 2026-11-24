@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jayesh Mulchandani</title>
+<meta name="description" content="Portfolio of Jayesh Mulchandani, embedded, IoT and telecom engineer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas>
+
+<div class="page">
+  <header class="bar">
+    <a class="mark" href="#top">Jayesh Mulchandani</a>
+    <nav aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <div class="hero">
+      <div class="hero-text">
+        <div class="photo tilt"><img id="photo" alt="Portrait of Jayesh Mulchandani" width="132" height="132"></div>
+        <p class="eyebrow" id="eyebrow"></p>
+        <h1 id="name"></h1>
+        <p class="lead" id="tagline"></p>
+        <div class="actions">
+          <a class="btn" href="#projects">See projects</a>
+          <a class="btn ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-side">
+        <dl class="spec panel" id="facts"></dl>
+      </div>
+    </div>
+
+    <section id="about"><h2>About</h2><div class="body panel" id="about-body"></div></section>
+    <section id="skills"><h2>Skills</h2><div class="body" id="skills-body"></div></section>
+    <section id="experience"><h2>Experience</h2><ol class="body jobs" id="exp-body"></ol></section>
+    <section id="projects"><h2>Projects</h2><ul class="body projects" id="proj-body"></ul></section>
+    <section id="education">
+      <h2>Education</h2>
+      <div class="body panel stack" id="edu-body"></div>
+    </section>
+    <section id="contact"><h2>Contact</h2><ul class="body contact panel" id="contact-body"></ul></section>
+  </main>
+
+  <footer>Jayesh Mulchandani · Embedded, IoT and telecom engineer</footer>
+</div>
+
+<script src="vendor/three.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/scene.js"></script>
+</body>
+</html>
