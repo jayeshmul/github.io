@@ -6,7 +6,7 @@
    ========================================================== */
 window.PORTFOLIO = {
   name: "Jayesh Mulchandani",
-  eyebrow: "Embedded · IoT · Telecom RAN",
+  eyebrow: "Embedded · IoT · Firmware",
   photo: "assets/jayesh.jpg",          // apni photo isi naam se assets/ folder mein rakho
   tagline:
     "Electronics and telecommunication engineer. I build sensor and microcontroller systems on the 8051, ESP8266 and Raspberry Pi 5, and I have 2+ years of telecom network engineering at Ericsson India.",
@@ -36,7 +36,7 @@ window.PORTFOLIO = {
 
   experience: [
     {
-      when: "Nov 2023 – Oct 2026",
+      when: "Nov 2023 – Sept 2026",
       title: "Network Engineer",
       org: "Genius Consultants Ltd., deputed to Ericsson India",
       points: [
@@ -87,7 +87,7 @@ window.PORTFOLIO = {
 
   contact: {
     email: "jayeshmulchandani067@gmail.com",
-    phone: "+91 9424725954"
+    phone: "+91 9926490716"
     // LinkedIn / GitHub add karna ho to yahan likho, jaise:
     // linkedin: "https://www.linkedin.com/in/your-id",
     // github: "https://github.com/your-id"
